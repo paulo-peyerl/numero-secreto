@@ -1,5 +1,5 @@
 let listaDosNumerosEscolhidos = [];
-let quantidadeLimiteDeNumeros = 10;
+let quantidadeLimiteDeNumeros = 100;
 let numeroSecreto = criarNumeroSecreto();
 let tentativas = 1
 let modoDeJogo = 'normal';
@@ -12,13 +12,13 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirTelaDeInicio() {
     exibirTextoNaTela('h1', 'Seja bem-vindo(a) ao jogo do número secreto');
-    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 10');
+    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 100');
 }
 exibirTelaDeInicio();
 
 function exibirTelaDeInicioCom5Chances(){
     exibirTextoNaTela('h1', 'Seja bem-vindo(a) ao jogo do número secreto com 5 chances');
-    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 10');
+    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 100');
 }
 
 function verificarChute(){
