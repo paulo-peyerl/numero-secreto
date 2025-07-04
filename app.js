@@ -12,13 +12,13 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirTelaDeInicio() {
     exibirTextoNaTela('h1', 'Seja bem-vindo(a) ao jogo do número secreto');
-    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 100');
+    exibirTextoNaTela('p', `Chute um número inteiro de 1 a ${quantidadeLimiteDeNumeros}`);
 }
 exibirTelaDeInicio();
 
 function exibirTelaDeInicioCom5Chances(){
     exibirTextoNaTela('h1', 'Seja bem-vindo(a) ao jogo do número secreto com 5 chances');
-    exibirTextoNaTela('p', 'Chute um número inteiro de 1 a 100');
+    exibirTextoNaTela('p', `Chute um número inteiro de 1 a ${quantidadeLimiteDeNumeros}`);
 }
 
 function verificarChute(){
