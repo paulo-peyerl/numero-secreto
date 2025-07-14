@@ -1,5 +1,5 @@
 let listaDosNumerosEscolhidos = [];
-let quantidadeLimiteDeNumeros = 100;
+let quantidadeLimiteDeNumeros = 10;
 let numeroSecreto = criarNumeroSecreto();
 let tentativas = 1
 let modoDeJogo = 'normal';
